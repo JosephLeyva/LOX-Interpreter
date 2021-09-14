@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1631559375 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"common.h"
+	"chunk.h"
+	"debug.h"
+	"vm.h"
+
+1631497148 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\common.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+
+1631421037 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\chunk.c
+	<stdlib.h>
+	"chunk.h"
+	"memory.h"
+
+1631645039 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\chunk.h
+	"common.h"
+	"value.h"
+
+1631589636 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\memory.h
+	"common.h"
+	"object.h"
+
+1631589658 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\memory.c
+	<stdlib.h>
+	"memory.h"
+	"vm.h"
+
+1631418254 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\debug.h
+	"chunk.h"
+
+1631645147 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\debug.c
+	<stdio.h>
+	"debug.h"
+	"value.h"
+
+1631565987 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\value.h
+	"common.h"
+
+1631590169 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\value.c
+	<stdio.h>
+	<string.h>
+	"object.h"
+	"memory.h"
+	"value.h"
+
+1631643443 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\vm.h
+	"value.h"
+	"table.h"
+	"chunk.h"
+
+1631645104 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\vm.c
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	"object.h"
+	"memory.h"
+	"common.h"
+	"compiler.h"
+	"debug.h"
+	"vm.h"
+
+1631562050 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\compiler.h
+	"vm.h"
+	"object.h"
+
+1631645929 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\compiler.c
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+	"compiler.h"
+	"scanner.h"
+	"debug.h"
+
+1631471129 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\scanner.h
+
+1631565606 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\scanner.c
+	<stdio.h>
+	<string.h>
+	"common.h"
+	"scanner.h"
+
+1631589280 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\object.h
+	"common.h"
+	"value.h"
+
+1631590178 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\object.c
+	<stdio.h>
+	<string.h>
+	"memory.h"
+	"object.h"
+	"table.h"
+	"value.h"
+	"vm.h"
+
+1631590087 source:d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\table.c
+	<stdlib.h>
+	<string.h>
+	"memory.h"
+	"object.h"
+	"table.h"
+	"value.h"
+
+1631590050 d:\alberto\onedrive\documentos\uson\septimo semestre\compiladores\lox\table.h
+	"common.h"
+	"value.h"
+
